@@ -1,7 +1,6 @@
 const key = "88f3bd469904fc5b50b51d22c9bbfb4e"
 
 function showDataScreen(data) {
-    console.log(data)
     document.querySelector('.city').innerHTML = "Tempo em " + data.name
     document.querySelector('.temp').innerHTML = Math.floor(data.main.temp) + " °C"
     document.querySelector('.text-forecast').innerHTML = data.weather[0].description
