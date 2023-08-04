@@ -13,7 +13,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://source.unsplash.com/1600x900/?landscap');
+    background-image: url('../images/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bigger-box {
